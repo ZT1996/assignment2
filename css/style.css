@@ -1,0 +1,47 @@
+/*head style*/
+. {
+	box-sizing: border-box;
+}
+.navbar {
+	background-color: #999999;
+	border: 2px solid #000000;
+}
+
+.navbar-brand {
+	color: black;
+}
+/*head style end*/
+
+/*body style*/
+.title {
+	text-align: center;
+	margin:20px 0 30px 0;
+}
+
+.item-content {
+	background-color: #999999;
+}
+
+.item-name {
+	text-align: center;
+	font-weight: bold;
+}
+/*small devices*/
+@media (min-width: 576px) {
+
+}
+/*medium devices*/
+@media (min-width: 768px) {
+
+}
+/*large devices*/
+@media (min-width: 992px) {
+
+}
+/*extra large devices*/
+@media (min-width: 1200px) {
+	.item-content {
+		padding: 5px;
+	}
+}
+/*body style end
